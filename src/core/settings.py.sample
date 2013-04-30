@@ -40,3 +40,7 @@ SQLALCHEMY_DATABASE_URI = "%s://%s:%s@%s/%s" % (DB_TYPE, DB_USER, DB_PASSWORD, D
 
 # Flask Web Assets Settings
 ASSETS_DEBUG = True
+
+# Flask Debug Toolbar Settings
+DEBUG_TB_PROFILER_ENABLED = True
+DEBUG_TB_TEMPLATE_EDITOR_ENABLED = True

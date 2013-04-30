@@ -1,6 +1,7 @@
 from flask import Flask
 from flask.ext.assets import Environment, Bundle
 from flask.ext.sqlalchemy import SQLAlchemy
+from flask_debugtoolbar import DebugToolbarExtension
 
 # Configuring Flask Application
 app = Flask(__name__)
@@ -17,6 +18,9 @@ webAssets.register("js_main", Bundle("js/main.js", filters="jsmin",
 
 # Configuring database
 db = SQLAlchemy(app)
+
+# Configuring flask debug toolbar
+toolbar = DebugToolbarExtension(app)
 
 __import__("core.models")
 __import__("core.views")
