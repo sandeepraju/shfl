@@ -1,9 +1,6 @@
 Shfl
 ====
 
-
-## About
-
 __Shfl__ is a minimal [Flask](http://flask.pocoo.org/) boilerplate structured to build large web applications in a modular way.
 
 
