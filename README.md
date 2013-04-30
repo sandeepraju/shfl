@@ -4,12 +4,13 @@ Shfl
 __Shfl__ is a minimal [Flask](http://flask.pocoo.org/) boilerplate structured to build large web applications in a modular way.
 
 
-## Technologies Used
+## Built Using
 
 1. [Flask](http://flask.pocoo.org/) micro framework.
+2. [MySQL](http://www.mysql.com/) database using [Flask-SQLAlchemy](http://pythonhosted.org/Flask-SQLAlchemy/).
 2. HTML5 & CSS3 via [Initializr](http://www.initializr.com/).
-3. [jQuery](http://jquery.com).
-4. [Backbone.js](http://backbonejs.org/).
+3. [jQuery](http://jquery.com) javascript library.
+4. [Backbone.js](http://backbonejs.org/) javascript library.
 
 
 ## Installation
@@ -25,12 +26,13 @@ This installation guide assumes that the application is being installed on the l
 5. In the project root, run `virtualenv venv`
 6. Activate the virtual environment using `source venv/bin/activate`
 7. Once the virtual environment is active, run `pip install -r src/requirements.txt`
-8. To deactivate the virtual environment, type `deactivate` and hit ENTER.
+8. To deactivate the virtual environment (after you are done with the development), type `deactivate` and hit ENTER.
+9. To re enable the virtual environment `cd src/scripts` and `source dev.sh` or just run `source venv/bin/activate`.
 
 
 ### Configuration
 
-All the project configurations are done in the file `settings.py` located at `src/core/settings.py.sample`. Rename it to `settings.py` before adding any configurations or modifying them.  
+All the project configurations are present in the file `settings.py.sample` located at `src/core/`. Copy it to `settings.py` and add any configurations or modifications you need to `settings.py`.  
 
 Some Ideal configurations for development are listed below.
 
@@ -39,7 +41,6 @@ Some Ideal configurations for development are listed below.
 
 DEVELOPMENT = True
 DEBUG = True
-
 ```
 
 
@@ -51,9 +52,15 @@ DEBUG = True
 4. When you edit the schema and want to sync it to the database, go to `src/core` and run the command `alembic revision --autogenerate -m "<revision_message_here>"`. Here the revision message is a simple short line telling what was changed just like a git commit message. Then run, `alembic upgrade head`
 
 
+### Running the Application (For Development)
+
+1. Go to `src/` and run the application using, `python run.py`
+2. Point your browser to the url that gets displayed.
+
+
 ## Development Workflow
 
-1. Rename the `settings.py.sample` using the command, `mv settings.py.sample setting.py`
+1. Copy the `settings.py.sample` using the command, `cp settings.py.sample setting.py`
 2. Make appropriate settings in `settings.py`
 3. Go to `src/scripts` and run `source dev.sh`.
 4. Run the migrations as mentioned in the previous section.
@@ -80,7 +87,6 @@ If you find any bugs, feel free to report it by raising an [issue here](https://
 
 Hi! I'm [Sandeep Raju P](https://github.com/sandeepraju). I tweet as [@sandeeprajup](https://twitter.com/sandeeprajup). To know more about me, check out [my website](http://sandeepraju.in).  
 To contact me directly, shoot me a mail at [me@sandeepraju.in](mailto:me@sandeepraju.in).
-
 
 
 ## License
