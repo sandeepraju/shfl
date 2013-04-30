@@ -78,10 +78,9 @@ If you find any bugs, feel free to report it by raising an [issue here](https://
 
 ## Author
 
-[Sandeep Raju P](https://github.com/sandeepraju)  
-[@sandeeprajup](https://twitter.com/sandeeprajup)  
-[me@sandeepraju.in](mailto:me@sandeepraju.in)  
-[sandeepraju.in](http://sandeepraju.in)  
+Hi! I'm [Sandeep Raju P](https://github.com/sandeepraju). I tweet as [@sandeeprajup](https://twitter.com/sandeeprajup). To know more about me, check out [my website](http://sandeepraju.in).  
+To contact me directly, shoot me a mail at [me@sandeepraju.in](mailto:me@sandeepraju.in).
+
 
 
 ## License
