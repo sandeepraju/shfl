@@ -28,7 +28,7 @@ APPLICATION_PORT = 5000
 ADMINS = ["me@sandeepraju.in"]
 
 # Logging
-ENABLE_LOGGING = False
+ENABLE_LOGGING = not DEBUG
 
 # Database Settings
 DB_TYPE = ""  # For MySQL, use "mysql"
@@ -39,11 +39,11 @@ DB_NAME = ""
 SQLALCHEMY_DATABASE_URI = "%s://%s:%s@%s/%s" % (DB_TYPE, DB_USER, DB_PASSWORD, DB_HOST, DB_NAME)
 
 # Flask Web Assets Settings
-ASSETS_DEBUG = True
+ASSETS_DEBUG = DEBUG
 
 # Flask Debug Toolbar Settings
-DEBUG_TB_PROFILER_ENABLED = True
-DEBUG_TB_TEMPLATE_EDITOR_ENABLED = True
+DEBUG_TB_PROFILER_ENABLED = DEBUG
+DEBUG_TB_TEMPLATE_EDITOR_ENABLED = DEBUG
 
 # Flask Mail Configuration
 MAIL_SERVER = ""  # for gmail, use "smtp.gmail.com"
@@ -54,4 +54,4 @@ MAIL_USERNAME = ""  # for gmail, if email is user@gmail.com, then use "user"
 MAIL_PASSWORD = ""
 MAIL_DEFAULT_SENDER = ""
 MAIL_MAX_EMAILS = 50
-MAIL_SUPPRESS_SEND = False
+MAIL_SUPPRESS_SEND = DEBUG
