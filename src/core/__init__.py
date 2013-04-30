@@ -2,6 +2,7 @@ from flask import Flask
 from flask.ext.assets import Environment, Bundle
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask_debugtoolbar import DebugToolbarExtension
+from flask_mail import Mail
 
 # Configuring Flask Application
 app = Flask(__name__)
@@ -21,6 +22,9 @@ db = SQLAlchemy(app)
 
 # Configuring flask debug toolbar
 toolbar = DebugToolbarExtension(app)
+
+# Configuring flask mail
+mail = Mail(app)
 
 __import__("core.models")
 __import__("core.views")

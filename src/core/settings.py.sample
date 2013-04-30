@@ -31,7 +31,7 @@ ADMINS = ["me@sandeepraju.in"]
 ENABLE_LOGGING = False
 
 # Database Settings
-DB_TYPE = ""
+DB_TYPE = ""  # For MySQL, use "mysql"
 DB_HOST = ""
 DB_USER = ""
 DB_PASSWORD = ""
@@ -44,3 +44,14 @@ ASSETS_DEBUG = True
 # Flask Debug Toolbar Settings
 DEBUG_TB_PROFILER_ENABLED = True
 DEBUG_TB_TEMPLATE_EDITOR_ENABLED = True
+
+# Flask Mail Configuration
+MAIL_SERVER = ""  # for gmail, use "smtp.gmail.com"
+MAIL_PORT = <mail_port_number>  # for gmail, use 465
+MAIL_USE_TLS = False  # for gmail, False
+MAIL_USE_SSL = True  # for gmail, True
+MAIL_USERNAME = ""  # for gmail, if email is user@gmail.com, then use "user"
+MAIL_PASSWORD = ""
+MAIL_DEFAULT_SENDER = ""
+MAIL_MAX_EMAILS = 50
+MAIL_SUPPRESS_SEND = False
