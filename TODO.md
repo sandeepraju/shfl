@@ -13,3 +13,4 @@ TODO
 10. Define a coding, commenting, documentation standard.
 11. ~~Change this to GFM _task lists_.~~
 12. Serve glyphicons from `sandeepraju.github.io` (after creating it).
+13. Integrate logging module
