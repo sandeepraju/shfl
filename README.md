@@ -19,12 +19,11 @@ This installation guide assumes that the application is being installed on the l
 
 ### Prerequisites
 
-1. Install Python development packages using, `sudo apt-get install python-dev`
-2. Install [Python pip](https://pypi.python.org/pypi/pip) using `sudo apt-get install python-pip`
-3. Install Python MySQLDB package using, `sudo apt-get install python-mysqldb` 
-4. Install [virtualenv](https://pypi.python.org/pypi/virtualenv) using `sudo pip install virtualenv`
+1. Install essential Python packages using, `sudo apt-get install python-setuptools python-dev build-essential`
+2. Install MySQL Server and client library using, `sudo apt-get install mysql-server libmysqlclient-dev`
+4. Install [virtualenv](https://pypi.python.org/pypi/virtualenv) using `sudo pip install -U virtualenv`
 5. In the project root, run `virtualenv venv`
-6. Activate the virtual environment using `. venv/bin/activate`
+6. Activate the virtual environment using `source venv/bin/activate`
 7. Once the virtual environment is active, run `pip install -r src/requirements.txt`
 8. To deactivate the virtual environment, type `deactivate` and hit ENTER.
 
