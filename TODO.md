@@ -8,7 +8,7 @@ TODO
 5. Define a coding standard.
 6. Integrate unit testing module.
 7. Blueprint intergration.
-8. Favicon intergration.
+8. ~~Favicon intergration.~~
 9. Add inline links to the code snippets picked from web.
 10. Define a coding, commenting, documentation standard.
 11. ~~Change this to GFM _task lists_.~~

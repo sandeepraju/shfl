@@ -64,6 +64,12 @@ DEBUG = True
 
 I love contributors! Fork the repository and start sending pull requests...  
 
+As [Ken Keyes](http://en.wikipedia.org/wiki/Ken_Keyes,_Jr.) said,
+
+>“Everyone and everything around you is your teacher.”
+
+If you feel there is something in __shfl__ that can be done better, let me know or better, do it and send me a pull request! I believe, "code is worth a thousand words!"
+
 
 ## Bug Reporting
 
