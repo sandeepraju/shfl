@@ -3,13 +3,25 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Name: Sandeep Raju
+    Website: http://sandeepraju.in
+    Twitter: @sandeeprajup
+
 
 # THANKS
 
-    <name>
+    shfl -- opensource flask boilerplate -- http://github.com/sandeepraju/shfl
+
 
 # TECHNOLOGY COLOPHON
 
+    Python, Flask
     HTML5, CSS3
     jQuery, Modernizr
+
+
+# SITE
+    Last Update: YYYY/MM/DD
+    Standards: HTML5, CSS3
+    Components: Modernizr, jQuery
+    Software: Sublime Text 2, ViM
