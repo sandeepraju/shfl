@@ -81,7 +81,7 @@ If you find any bugs, feel free to report it by raising an [issue here](https://
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/pesos/ngo-portal/blob/seva-flask/LICENSE.txt).
+This project is licensed under the [MIT License](https://github.com/sandeepraju/shfl/blob/master/LICENSE.txt).
 
 
 ## Getting Started
